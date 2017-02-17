@@ -1,0 +1,1 @@
+'use strict';var ConsoleLogger=require('./ConsoleLogger'),NoLogger=require('./NoLogger'),Loggers={ConsoleLogger:ConsoleLogger,NoLogger:NoLogger};module.exports=Loggers;

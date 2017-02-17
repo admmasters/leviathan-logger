@@ -1,0 +1,1 @@
+'use strict';var ConsoleLogger=require('../ConsoleLogger');global.console={log:jest.fn()},describe('ConsoleLogger',function(){test('will call the console',function(){ConsoleLogger.log('HELLO'),expect(console.log).toHaveBeenCalled()}),test('will call the console with correct data',function(){var a='Hello';ConsoleLogger.log(a),expect(console.log).toBeCalledWith(a)})});

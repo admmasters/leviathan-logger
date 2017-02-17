@@ -2,7 +2,7 @@
   "name": "leviathan-logger",
   "version": "1.0.0",
   "description": "A Simple logging library built to be extensible with FlowType.",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/admmasters/leviathan-logger.git",
   "author": "Matt Revell <mattrevell82@me.com>",
   "license": "MIT",

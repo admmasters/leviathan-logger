@@ -1,0 +1,1 @@
+'use strict';var NoLogger=require('../NoLogger');global.console={log:jest.fn()},describe('No Logger',function(){test('will call the console',function(){NoLogger.log('HELLO'),expect(console.log).toHaveBeenCalledTimes(0)})});
