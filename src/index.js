@@ -1,8 +1,8 @@
 // @flow
-import type { Logger } from './interfaces';
+import { Logger } from './interfaces';
 
-const ConsoleLogger = require('./ConsoleLogger');
-const NoLogger = require('./NoLogger');
+import ConsoleLogger from './ConsoleLogger';
+import NoLogger from './NoLogger';
 
 type LoggerDictionary = {
   [value: string]: Logger
@@ -13,4 +13,4 @@ const Loggers: LoggerDictionary = {
   NoLogger,
 };
 
-module.exports = Loggers;
+export default Loggers;

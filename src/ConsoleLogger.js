@@ -7,4 +7,4 @@ class ConsoleLogger implements Logger {
   }
 }
 
-module.exports = new ConsoleLogger();
+export default new ConsoleLogger();
