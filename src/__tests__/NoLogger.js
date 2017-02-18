@@ -1,6 +1,5 @@
 // @flow
-
-import NoLogger from '../NoLogger';
+const NoLogger = require('../NoLogger');
 
 // Mocks
 global.console = { log: jest.fn() };

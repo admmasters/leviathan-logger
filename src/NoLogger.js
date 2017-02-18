@@ -4,4 +4,4 @@ class NoLogger {
   }
 }
 
-export default new NoLogger();
+module.exports = new NoLogger();

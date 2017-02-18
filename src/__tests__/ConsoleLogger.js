@@ -1,5 +1,5 @@
 // @flow
-import ConsoleLogger from '../ConsoleLogger';
+const ConsoleLogger = require('../ConsoleLogger');
 
 // Mocks
 global.console = { log: jest.fn() };
