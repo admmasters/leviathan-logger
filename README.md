@@ -1,4 +1,7 @@
 # leviathan-logger
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/admmasters/leviathan-logger.svg)](https://greenkeeper.io/)
+
 A simple and pluggable logging library built with FlowType.
 
 # v1 RC Roadmap:
